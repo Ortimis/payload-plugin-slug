@@ -1,6 +1,6 @@
 {
   "name": "payload-plugin-slug",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A drop-in slug field for PayloadCMS with sensible defaults",
   "license": "MIT",
   "files": [
