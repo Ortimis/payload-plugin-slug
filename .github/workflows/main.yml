@@ -50,6 +50,9 @@ jobs:
 
       - run: pnpm install
 
+      - run: pnpm copyfiles
+        name: Copy files
+
       - run: pnpm build
         name: Build package
         env:
