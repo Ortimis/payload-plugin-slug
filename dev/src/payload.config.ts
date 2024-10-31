@@ -38,19 +38,7 @@ export default buildConfig({
           type: 'richText',
         },
 
-        ...slugField('title', {
-          slugOverrides: {
-            admin: {
-              readOnly: true,
-            },
-            hooks: {
-              beforeValidate: [],
-            },
-          },
-          checkboxOverrides: {
-            defaultValue: false,
-          },
-        }),
+        ...slugField(),
       ],
     },
     {
