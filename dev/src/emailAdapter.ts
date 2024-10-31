@@ -1,9 +1,5 @@
 import type { EmailAdapter, SendEmailOptions } from 'payload'
 
-import { SlugFieldComponent } from 'payload-plugin-slug'
-
-console.log(SlugFieldComponent)
-
 /**
  * Logs all emails to stdout
  */
