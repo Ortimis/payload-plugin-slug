@@ -1,2 +1,2 @@
-export { slugField } from './fields/SlugField/index.js'
-export { SlugFieldComponent } from './fields/SlugField/SlugFieldComponent.jsx'
+export { slugField } from './fields/SlugField/index'
+export { SlugFieldComponent } from './fields/SlugField/SlugFieldComponent'
