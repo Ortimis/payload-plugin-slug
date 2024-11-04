@@ -28,9 +28,10 @@ export const SlugFieldComponent: React.FC<SlugComponentProps> = ({
   const { label } = field
   const { path, readOnly: readOnlyFromProps } = useFieldProps()
 
-  const checkboxFieldPath = path.includes('.')
-    ? `${path}.${checkboxFieldPathFromProps}`
-    : checkboxFieldPathFromProps
+  const checkboxFieldPath =
+    path && path.includes('.')
+      ? `${path}.${checkboxFieldPathFromProps}`
+      : checkboxFieldPathFromProps
 
   // The value of the slug field
   const { value, setValue } = useField<string>({ path })
