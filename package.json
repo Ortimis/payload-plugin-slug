@@ -13,7 +13,7 @@
   "types": "./dist/index.d.ts",
   "type": "module",
   "scripts": {
-    "build": "tsc --project tsconfig.json",
+    "build": "tsc --project tsconfig.json && copyfiles",
     "build:all": "pnpm build && pnpm -C dev build",
     "build:app": "pnpm -C dev build",
     "clean": "rimraf {dist,*.tsbuildinfo,package}",
