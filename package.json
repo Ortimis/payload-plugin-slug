@@ -1,6 +1,6 @@
 {
   "name": "payload-plugin-slug",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A drop-in slug field for PayloadCMS with sensible defaults",
   "license": "MIT",
   "repository": {
@@ -16,6 +16,7 @@
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "type": "module",
+  "module": "./dist/index.js",
   "scripts": {
     "build": "tsc --project tsconfig.json",
     "build:all": "pnpm build && pnpm -C dev build",
