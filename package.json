@@ -3,6 +3,10 @@
   "version": "0.0.6",
   "description": "A drop-in slug field for PayloadCMS with sensible defaults",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ortimis/payload-plugin-slug"
+  },
   "files": [
     "dist",
     "src",
